@@ -450,5 +450,7 @@ set-option -ga terminal-overrides ",xterm-256color:Tc"
 
 set -g @plugin 'christoomey/vim-tmux-navigator'
 
-
-
+# split current window horizontally
+bind - split-window -v
+# split current window vertically
+bind '\' split-window -h
